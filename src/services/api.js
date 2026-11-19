@@ -1,5 +1,4 @@
-const BASE_URL = "https://jsonplaceholder.typicode.com";
-
+const BASE_URL = "http://localhost:3001";
 export async function request(path, options = {}){
     const controller = new AbortController();
     const timeout = setTimeout(() =>{

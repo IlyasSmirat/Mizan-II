@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #1f2833;
+}
+
+#catalogue{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#liste-articles{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #66fcf1;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 300px;
+    color: #0b0c10;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 5px 5px;
+}
+
+.titles{
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: bold;
+    font-style: italic;
+}
+
+.prices{
+    color: green;
+}
+
+#recherche{
+    display: flex;
+    width: 1000px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #66fcf1;
+}
+
+.cont{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#filter{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+#filter p{
+    padding-right: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+#filtre-status{
+    background-color: #c5c6c7;
+    font-family: 'Inter', sans-serif;
+    font-size: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#filtreDiv{
+    display: flex;
+}
+#triDiv{
+    display: flex;
+}
+
+#tri{
+    width: 120px;
+    background-color: #c5c6c7;
+    font-family: 'Inter', sans-serif;
+    font-size: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
