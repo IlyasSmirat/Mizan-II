@@ -160,7 +160,6 @@ async function afficherHistorique(){
 
     const data = await getPoints(symbole, range);
 
-    console.log(data.points);
     const context = historyChart.getContext("2d");
     context.clearRect(0, 0, historyChart.width, historyChart.height);
     if (data.points.length === 0) {

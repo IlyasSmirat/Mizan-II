@@ -11,5 +11,27 @@
     <section id="catalogue">
         <h2>Catalogue des articles</h2>
     </section>
+    <div class="cont">
+        <input id="recherche" type="text" placeholder="Chercher un article :">
+        <div id="filter">
+            <div id="filtreDiv">
+                <p>Filtrer par :</p>
+                <select id="filtre-status">
+                    <option value="tous">Tous les articles</option>
+                    <option value="Disponible">Disponible</option>
+                    <option value="Réservé">Réserver</option>
+                </select>
+            </div>
+            <div id="triDiv">
+                <p>Trier par :</p>
+                <select id="tri">
+                    <option value="title">Titre</option>
+                    <option value="prix">Prix</option>
+                    <option value="date">Date</option>
+                </select>
+            </div>
+        </div>
+        <div id="liste-articles"></div>
+    </div>
 </body>
 </html>

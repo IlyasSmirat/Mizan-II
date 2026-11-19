@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Bague en or 18 carats",
+      "description": "Bague élégante en or jaune 18 carats",
+      "prix": 2500,
+      "statut": "Disponible",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "2",
+      "title": "Collier en argent",
+      "description": "Collier raffiné en argent sterling",
+      "prix": 850,
+      "statut": "Réservé",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "3",
+      "title": "Pièce d'or",
+      "description": "Pièce d'or pour collection",
+      "prix": 4200,
+      "statut": "Disponible",
+      "date": "2026-11-15"
+    },
+    {
+    "id": "4",
+    "title": "Bracelet en or 18 carats",
+    "description": "Bracelet élégant en or jaune 18 carats",
+    "prix": 3200,
+    "statut": "Disponible",
+    "date": "2026-11-14"
+  },
+  {
+    "id": "5",
+    "title": "Boucles d'oreilles en argent",
+    "description": "Boucles d'oreilles en argent sterling avec finition brillante",
+    "prix": 650,
+    "statut": "Réservé",
+    "date": "2026-11-13"
+  },
+  {
+    "id": "6",
+    "title": "Lingot d'or 10 grammes",
+    "description": "Lingot d'or pur 24 carats de 10 grammes",
+    "prix": 7800,
+    "statut": "Disponible",
+    "date": "2026-11-12"
+  },
+  {
+    "id": "7",
+    "title": "Bague en argent",
+    "description": "Bague moderne en argent avec une pierre bleue",
+    "prix": 450,
+    "statut": "Vendu",
+    "date": "2026-11-11"
+  },
+  {
+    "id": "8",
+    "title": "Collier en or blanc",
+    "description": "Collier délicat en or blanc 18 carats",
+    "prix": 4100,
+    "statut": "Disponible",
+    "date": "2026-11-10"
+  },
+  {
+    "id": "9",
+    "title": "Pièce d'argent",
+    "description": "Pièce d'argent ancienne pour collectionneurs",
+    "prix": 1200,
+    "statut": "Réservé",
+    "date": "2026-11-09"
+  },
+  {
+    "id": "11",
+    "title": "Lingot d'or 5 grammes",
+    "description": "Petit lingot d'or pur 24 carats de 5 grammes",
+    "prix": 3950,
+    "statut": "Vendu",
+    "date": "2026-11-07"
+  },
+  {
+    "id": "12",
+    "title": "Pendentif en or",
+    "description": "Pendentif en or jaune avec un design classique",
+    "prix": 1850,
+    "statut": "Disponible",
+    "date": "2026-11-06"
+  },
+  {
+    "id": "13",
+    "title": "Montre en acier inoxydable",
+    "description": "Montre élégante avec bracelet en acier inoxydable",
+    "prix": 1450,
+    "statut": "Réservé",
+    "date": "2026-11-05"
+  }
+  ]
+}
