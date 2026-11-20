@@ -31,6 +31,19 @@
                 </select>
             </div>
         </div>
+        <div id="arc">
+            <p>Ajouter un produit :</p>
+            <form id="form-article">
+                <input type="text" id="titre" placeholder="Ex : Titre de l'article">
+                <p id="titreErreur" class="hidden"></p>
+                <textarea id="description" placeholder="Description de l'article"></textarea>
+                <p id="descriptionErreur" class="hidden"></p>
+                <input type="number" id="prix" placeholder="Prix en MAD">
+                <p id="prixErreur" class="hidden"></p>
+                <button type="submit" id="button-ajouter">Ajouter l'article</button>
+            </form>
+            <p id="form-message" class="hidden"></p>
+        </div>
         <div id="liste-articles"></div>
     </div>
 </body>

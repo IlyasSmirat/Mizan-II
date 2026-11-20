@@ -42,6 +42,7 @@ h2{
     border-radius: 20px;
     font-family: 'Inter', sans-serif;
     box-shadow: 5px 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .titles{
@@ -62,7 +63,7 @@ h2{
     height: 30px;
     border-radius: 20px;
     padding: 5px;
-    background-color: #66fcf1;
+    background-color: #45a29e;
 }
 
 .cont{
@@ -70,6 +71,10 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#recherche{
+    border: 1px solid #45a29e;
 }
 
 #filter{
@@ -110,4 +115,70 @@ h2{
     font-size: bold;
     text-decoration: underline;
     font-style: italic;
+}
+
+#form-article{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#arc{
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+}
+
+#arc p{
+    text-decoration: underline;
+}
+
+#titre{
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: #45a29e;
+    border: 1px solid #45a29e;
+}
+
+.container:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0);
+    border: 3px solid rgb(14, 210, 14);
+}
+
+#description{
+    height: 100px;
+    border-radius: 5px;
+    background-color: #45a29e;
+}
+
+#prix{
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: #45a29e;
+    border: 1px solid #45a29e;
+}
+
+form button{
+    background-color: #45a29e;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #45a29e;
+}
+
+.hidden {
+    display: none;
 }
